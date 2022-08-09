@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margim_default"
+    android:layout_marginTop="@dimen/margim_8"
+    android:layout_marginEnd="@dimen/margim_default"
+    android:layout_marginBottom="@dimen/margim_8"
+    tools:cardCornerRadius="@dimen/margim_4">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margim_default"
+        android:layout_marginTop="@dimen/margim_8"
+        android:layout_marginEnd="@dimen/margim_default"
+        android:layout_marginBottom="@dimen/margim_8"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margim_8"
+        tools:ignore="ViewBindingType">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_list_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_18"
+            android:textStyle="bold"
+            tools:text="Charbio Silva" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_list_item_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margim_8"
+            tools:text="email@conta.com" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_list_item_telefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margim_8"
+            tools:text="(55) 99999-9999" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>

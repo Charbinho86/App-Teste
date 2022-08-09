@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AppTeste</string>
+
+    <string name="edt_name">Name</string>
+    <string name="edt_email">Email</string>
+    <string name="edt_phone_number">Phone</string>
+
+    <string name="mb_add">add</string>
+    <string name="mb_add_update">update</string>
+
+    <string name="fragment_register">Register</string>
+    <string name="list_registers">Registers List</string>
+
+    <string name="register_inserted_successfully">Register was successfully inserted!</string>
+    <string name="register_update_successfully">Register was successfully update!</string>
+    <string name="register_error_to_insert">There was an error when Register!</string>
+
+</resources>

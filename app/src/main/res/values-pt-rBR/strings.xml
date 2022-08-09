@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppTeste</string>
+
+    <string name="edt_name">Nome</string>
+    <string name="edt_email">Email</string>
+    <string name="edt_phone_number">Telefone</string>
+
+    <string name="mb_add">adicionar</string>
+    <string name="mb_add_update">atualizar</string>
+
+    <string name="fragment_register">Registrar</string>
+    <string name="list_registers">Lista de Registros</string>
+
+    <string name="register_inserted_successfully">Rgistro foi inserido com sucesso!</string>
+    <string name="register_update_successfully">Registro foi atualizado com sucesso!</string>
+    <string name="register_error_to_insert">Houve um erro ao registrar!</string>
+
+</resources>
